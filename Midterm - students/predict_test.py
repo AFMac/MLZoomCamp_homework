@@ -1,6 +1,7 @@
 import requests
 import sys
 
+# data for a single student is contained in the dictionary below.  Modify individual values (keep as floats) to experiment with shifts in predicted outcomes
 student = {
     'marital_status': 1.0,
     'app_mode': 39.0,

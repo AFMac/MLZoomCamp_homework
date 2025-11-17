@@ -78,7 +78,7 @@ def predict(df, dv, model):
 # model validation
 
 print(f'Validating model with C = {C}')
-kfold = KFold(n_splits=n_splits, shuffle=True, random_state=1)
+kfold = KFold(n_splits=n_splits, shuffle=True, random_state=11)
 
 scores = []
 fold = 0
